@@ -6,7 +6,7 @@ import Intro from "../components/Intro/Intro"
 import ProjectContainer from "../components/ProjectContainer/ProjectContainer"
 import config from "react-reveal/globals"
 
-config({ ssrFadeout: true })
+config({ ssrReveal: true })
 
 const IndexPage = () => (
   <Layout>

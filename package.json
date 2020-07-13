@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "emil-fjellstrom-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Emil Fjellström's portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Emil Fjellström <emil.fjellstrom@icloud.com>",
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "@types/node": "^14.0.22",

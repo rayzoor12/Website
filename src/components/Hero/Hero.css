@@ -1,0 +1,11 @@
+.Hero {
+  padding-top: 15vmax;
+  width: 75%;
+}
+
+.Hero h1 {
+  font-size: calc(3.6vw + 1rem);
+  font-weight: 100;
+  color: #0f3310;
+  letter-spacing: -1px;
+}

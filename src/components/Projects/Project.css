@@ -1,0 +1,56 @@
+.Project {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  padding: 10vmax 0 0 0;
+}
+
+.Project-info {
+  width: 50%;
+  color: #0f3310;
+}
+
+.Project-info h3 {
+  font-size: calc(1.44vw + 1rem);
+  font-weight: 100;
+  color: #0f3310;
+  letter-spacing: -1px;
+}
+
+.Project-info h4 {
+  font-size: calc(0.8vw + 1rem);
+  font-weight: 100;
+  color: #0f3310;
+  letter-spacing: -1px;
+  line-height: 1.3888;
+}
+
+.Project-details {
+  width: 50%;
+  color: #000;
+  font-family: GaramondBlack;
+  line-height: 1.8em;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1.6em;
+  font-size: calc(0.24vw + 1rem);
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+  .Project {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Project-info {
+    width: 100%;
+  }
+
+  .Project-details {
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.Intro {
+  width: 75%;
+}
+
+.Intro h3 {
+  font-size: calc(1.44vw + 1rem);
+  font-weight: 100;
+  color: #0f3310;
+  letter-spacing: -1px;
+}

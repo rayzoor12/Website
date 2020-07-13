@@ -15,7 +15,7 @@ const Hero = () => {
   `)
 
   return (
-    <Fade>
+    <Fade ssrReveal>
       <section
         style={{
           minHeight: "100vh",

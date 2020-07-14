@@ -22,6 +22,7 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,

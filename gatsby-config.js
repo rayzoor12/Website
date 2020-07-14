@@ -14,6 +14,14 @@ module.exports = {
     author: `emil.fjellstrom@icloud.com`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Cormorant Garamond", "EB Garamond"],
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,

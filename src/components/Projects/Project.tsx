@@ -20,7 +20,7 @@ interface Props {
 const Project = (props: Props) => {
   const { project } = props
   return (
-    <Fade bottom>
+    <Fade bottom delay={500} duration={1500} distance="20%">
       <div className="Project">
         <div className="Project-info">
           <h3>{project.node.header}</h3>

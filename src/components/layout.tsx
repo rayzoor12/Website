@@ -1,6 +1,7 @@
 import * as React from "react"
 import Header from "./Header/Header"
 import "./layout.css"
+import Footer from "./Footer/Footer"
 
 interface Props {
   children: React.ReactNode
@@ -18,12 +19,8 @@ const Layout = ({ children }: Props) => {
           top: `110px`,
         }}
       >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <main style={{ marginBottom: "10vmax" }}>{children}</main>
+        <Footer />
       </div>
     </>
   )

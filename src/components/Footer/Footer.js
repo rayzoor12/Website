@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="Footer">
       <h1 className="Footer-email">
-        <a href="mailto:email@example.com">Get In Touch →</a>
+        <a href="mailto:emil.fjellstrom@icloud.com">Get In Touch →</a>
       </h1>
     </footer>
   )

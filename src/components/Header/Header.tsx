@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import * as React from "react"
 import { GithubFilled, LinkedinFilled } from "@ant-design/icons"
+import Fade from "react-reveal/Fade"
 
 interface Props {
   siteTitle: string
@@ -22,17 +23,19 @@ const Header = ({ siteTitle }: Props) => {
           justifyContent: `space-between`,
         }}
       >
-        <h1 style={{ margin: 0, fontWeight: "normal" }}>
-          <Link
-            to="/"
-            style={{
-              color: `#0f3310`,
-              textDecoration: `none`,
-            }}
-          >
-            {siteTitle}
-          </Link>
-        </h1>
+        <Fade ssrReveal>
+          <h1 style={{ margin: 0, fontWeight: "normal" }}>
+            <Link
+              to="/"
+              style={{
+                color: `#0f3310`,
+                textDecoration: `none`,
+              }}
+            >
+              {siteTitle}
+            </Link>
+          </h1>
+        </Fade>
         <div
           style={{
             display: "flex",

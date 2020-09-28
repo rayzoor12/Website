@@ -14,15 +14,6 @@ module.exports = {
     author: `emil.fjellstrom@icloud.com`,
   },
   plugins: [
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        google: {
-          families: ["Cormorant Garamond", "EB Garamond"],
-        },
-      },
-    },
-    `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
@@ -45,15 +36,6 @@ module.exports = {
         spaceId: `jkrlwxjx8ssa`,
         // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-nprogress`,
-      options: {
-        // Setting a color is optional.
-        color: `#eaf6f3`,
-        // Disable the loading spinner.
-        showSpinner: true,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

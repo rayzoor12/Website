@@ -60,7 +60,7 @@ const Header = ({ siteTitle }: Props) => {
               marginBottom: "0px",
             }}
             onClick={() =>
-              window.open("https://github.com/rayzoor12", "_blank")
+              window.open("https://github.com/emilfjellstrom", "_blank")
             }
           />
         </div>

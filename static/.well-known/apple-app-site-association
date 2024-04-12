@@ -7,7 +7,7 @@
     "details": [
       {
         "appID": "W7V4V552L8.com.emilfjellstrom.Attest-Demo",
-        "paths": ["/app/*", "/app"]
+        "paths": ["*"]
       }
     ]
   }
